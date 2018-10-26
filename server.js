@@ -6,7 +6,7 @@
 // =============================================================
 var express = require("express");
 var passport= require('passport');
-var session = require('express-session');
+var session = require('cookie-session');
 var bodyParser = require("body-parser");
 var env = require('dotenv').load();
 var passport = require("./config/passport");
